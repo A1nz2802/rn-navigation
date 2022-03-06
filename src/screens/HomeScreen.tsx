@@ -16,7 +16,12 @@ const HomeScreen = ( { navigation }: Props ) => {
         onPress={ () => navigation.navigate('Section') }
       />
 
-      <Text>Navigate with args</Text>
+      <Text style={{
+        marginVertical: 20,
+        fontSize: 15,
+      }}>
+        Navigate with args
+      </Text>
 
       <View style={{ flexDirection: 'row' }}>
         <TouchableOpacity
@@ -33,10 +38,10 @@ const HomeScreen = ( { navigation }: Props ) => {
           style={ { ...styles.bigButton, backgroundColor: '#FF9427'} }
           onPress={ () => navigation.navigate('Person', {
             id: 2,
-            name: 'Juan'
+            name: 'Maria'
           })}
         >
-          <Text style={ styles.bigButtonText }>Juan</Text>
+          <Text style={ styles.bigButtonText }>Maria</Text>
         </TouchableOpacity>
       </View>
 

@@ -9,3 +9,6 @@
 - Drawer Personalizado
 - useSafeAreaInserts
 - Verificación de tipos con Typescript
+
+![Calculator](https://i.imgur.com/x6HPEwa.jpg)
+
